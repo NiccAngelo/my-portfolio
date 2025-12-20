@@ -1,0 +1,18 @@
+service: portfolio-chatbot
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: ap-southeast-1
+  environment:
+    GEMINI_API_KEY: ${env:GEMINI_API_KEY}
+  httpApi:
+    cors: true
+
+functions:
+  chat:
+    handler: handler.chat
+    events:
+      - httpApi:
+          path: /chat
+          method: post
