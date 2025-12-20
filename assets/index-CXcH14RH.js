@@ -46,10 +46,10 @@ Error generating stack: `+a.message+`
           50% { opacity: 0.3; transform: scale(1.1); }
         }
 
-        @keyframes bounce-arrow {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(8px); }
-        }
+@keyframes bounce-arrow {
+  0%, 100% { transform: translate(-50%, 0px); }
+  50% { transform: translate(-50%, 8px); }
+}
         
         .animate-fade-in {
           animation: fade-in 1s ease-out;
