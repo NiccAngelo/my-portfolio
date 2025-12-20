@@ -20,11 +20,16 @@ Error generating stack: `+a.message+`
   from { opacity: 0; transform: translate(-50%, -50%) translateX(50px); }
   to { opacity: 1; transform: translate(-50%, -50%) translateX(0); }
 }
-        @keyframes fade-in-scale {
-          from { opacity: 0; transform: scale(0.8); }
-          to { opacity: 1; transform: scale(1); }
-        }
-        
+@keyframes fade-in-scale {
+  from { 
+    opacity: 0; 
+    transform: translate(-50%, -50%) scale(0.8); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translate(-50%, -50%) scale(1); 
+  }
+}
         @keyframes gradient-shift {
           0% { background-position: 0% 50%; }
           50% { background-position: 100% 50%; }
