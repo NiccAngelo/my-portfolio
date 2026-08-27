@@ -54,7 +54,7 @@ app.post('/chat', async (req, res) => {
     const model = genAI.getGenerativeModel({
       model: 'gemini-2.5-flash',
       systemInstruction: `You are Nizamin, a helpful assistant for Nic Angelo Idian's portfolio. Answer questions about:
-- Projects: BarangayCare, Broadcast Management System, My-Shopify
+- Projects: BarangayCare, Broadcast Management System, QuickCart
 - Skills: React, Flutter, Ruby on Rails, PHP, JavaScript, PostgreSQL, MySQL, Docker, AWS
 - Background: BS IT graduate from University of Nueva Caceres, Naga, Bicol
 - Contact: nicangelo.idian@unc.edu.ph, GitHub: @NiccAngelo

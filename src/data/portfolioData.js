@@ -68,7 +68,7 @@ export const FOOTER_CONTENT = {
 
 export const projects = [
   {
-    title: "My-Shopify - Full Stack E-commerce Platform",
+    title: "QuickCart - Full Stack E-commerce Platform",
     description: "Serverless e-commerce application with React frontend, AWS Lambda backend, and Supabase PostgreSQL. Features user authentication, shopping cart, order management, and real-time inventory tracking.",
     tech: ["React", "Vite", "AWS Lambda", "Express", "PostgreSQL", "Supabase", "GitHub Actions", "Tailwind CSS"],
     github: "https://github.com/NiccAngelo/my-shopify",
