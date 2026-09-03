@@ -252,7 +252,7 @@ const AboutSection = () => {
 
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href={`${import.meta.env.BASE_URL}Nic-Angelo-Idian-CV.pdf`}
+                    href={`${import.meta.env.BASE_URL}Nic_Idian_CV.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#3d5a45] to-[#5a7a63] text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"

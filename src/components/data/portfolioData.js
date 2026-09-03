@@ -201,7 +201,7 @@ export const PERSONAL_INFO = {
     linkedin: "https://linkedin.com/in/nic-angelo-idian-49b0b329a/",
     githubUsername: "@NiccAngelo"
   },
-  cvPath: "/my-portfolio/Nic-Angelo-Idian-CV.pdf"
+  cvPath: "/my-portfolio/Nic_Idian_CV.pdf"
 };
 
 /**
